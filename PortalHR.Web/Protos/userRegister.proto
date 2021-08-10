@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "PortalHR.Web";
+import "google/protobuf/timestamp.proto";
+package greet;
+
+service UserRegister {
+  rpc Register (RegisterRequest) returns (RegisterReply);
+}
+
+message RegisterRequest {
+  string firstname = 1;
+  string lastname = 2;
+  string email  = 3;
+  google.protobuf.Timestamp dateofbirth = 4;
+  int32 mentorId = 5;
+  string phonenumber = 6;
+  string address = 7;
+  int32 departmentId = 8;
+  int32 jobId = 9;
+}
+
+message RegisterReply {
+  string message = 1;
+}

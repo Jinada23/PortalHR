@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalHR.Service", "PortalHR.Service\PortalHR.Service.csproj", "{6A3D4600-FBD8-4714-99FF-0FD3C5BFF204}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalHR.Web", "PortalHR.Web\PortalHR.Web.csproj", "{D1DD0B2D-3C23-48AC-9BA8-6419EBE3FCA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3D4600-FBD8-4714-99FF-0FD3C5BFF204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3D4600-FBD8-4714-99FF-0FD3C5BFF204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3D4600-FBD8-4714-99FF-0FD3C5BFF204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3D4600-FBD8-4714-99FF-0FD3C5BFF204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DD0B2D-3C23-48AC-9BA8-6419EBE3FCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DD0B2D-3C23-48AC-9BA8-6419EBE3FCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DD0B2D-3C23-48AC-9BA8-6419EBE3FCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DD0B2D-3C23-48AC-9BA8-6419EBE3FCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8FD6CDC-CCD6-4419-A550-063FB86BC69F}
+	EndGlobalSection
+EndGlobal

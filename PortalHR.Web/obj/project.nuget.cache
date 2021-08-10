@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "khCyXKAtCuP690D1vvQCO4Lgn5ASh3Fs1T91U8+69HILWgG8zVvxoGv5AsJPeMJjx+lgm7L2X0OHCQUdXSIxmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gdumbrava\\OneDrive - ENDAVA\\Desktop\\Projects\\PortalHR\\PortalHR.Web\\PortalHR.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\google.protobuf\\3.17.3\\google.protobuf.3.17.3.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\grpc.core.api\\2.37.0\\grpc.core.api.2.37.0.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\grpc.net.client\\2.38.0\\grpc.net.client.2.38.0.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\grpc.net.common\\2.38.0\\grpc.net.common.2.38.0.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\grpc.tools\\2.38.1\\grpc.tools.2.38.1.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\gdumbrava\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,3 @@
+obj\Debug\net6.0\Protos/UserRegister.cs \
+obj\Debug\net6.0\Protos/UserRegisterGrpc.cs: C:/Users/gdumbrava/.nuget/packages/grpc.tools/2.32.0/build/native/include/google/protobuf/timestamp.proto\
+ Protos/userRegister.proto
