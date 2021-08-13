@@ -1,0 +1,12 @@
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\bin\Debug\net6.0\PortalHR.Infrastructure.deps.json
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\bin\Debug\net6.0\PortalHR.Infrastructure.dll
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\bin\Debug\net6.0\ref\PortalHR.Infrastructure.dll
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\bin\Debug\net6.0\PortalHR.Infrastructure.pdb
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\PortalHR.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\PortalHR.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\PortalHR.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\PortalHR.Infrastructure.AssemblyInfo.cs
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\PortalHR.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\PortalHR.Infrastructure.dll
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\ref\PortalHR.Infrastructure.dll
+C:\Users\gdumbrava\OneDrive - ENDAVA\Desktop\Projects\PortalHR\PortalHR.Infrastructure\obj\Debug\net6.0\PortalHR.Infrastructure.pdb

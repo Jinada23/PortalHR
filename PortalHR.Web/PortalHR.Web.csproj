@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Protos\userRegister.proto" />
+    <None Remove="Protos\User.proto" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,11 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\userRegister.proto" GrpcServices="Client" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Application\User\Queries\" />
+    <Protobuf Include="Protos\User.proto" GrpcServices="Client" />
   </ItemGroup>
 
 </Project>

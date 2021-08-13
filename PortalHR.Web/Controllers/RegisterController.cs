@@ -2,15 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PortalHR.Web.Application.User.Commands;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace PortalHR.Web.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+
     public class RegisterController : ControllerBase
     {
         private readonly ILogger<RegisterController> _logger;
@@ -27,7 +25,9 @@ namespace PortalHR.Web.Controllers
         {
             var request = new UserRegisterCommand();
 
-            return await _mediator.Send(request);
+            var response = await _mediator.Send(request);
+
+            return response.Message;
         }
     }
 }

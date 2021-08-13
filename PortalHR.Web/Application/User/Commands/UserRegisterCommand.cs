@@ -1,16 +1,13 @@
 ﻿using Google.Protobuf.WellKnownTypes;
 using MediatR;
-using PortalHR.Web.Infrastructure.Services;
+using PortalHR.Web.Grpc.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace PortalHR.Web.Application.User.Commands
 {
-    class UserRegisterCommand : IRequest<string>
+    class UserRegisterCommand : IRequest<RegisterReply>
     {
         public string FirstName { get; set; } = "default";
         public string LastName { get; set; } = "default";
@@ -23,31 +20,34 @@ namespace PortalHR.Web.Application.User.Commands
         public int JobId { get; set; }
     }
 
-    class UserRegisterCommandHandler : IRequestHandler<UserRegisterCommand, string>
+    class UserRegisterCommandHandler : IRequestHandler<UserRegisterCommand, RegisterReply>
     {
-        public UserRegisterService service { get; set; }
+        public UserGrpcService service { get; set; }
         public UserRegisterCommandHandler()
         {
-            service = new UserRegisterService();
+            service = new UserGrpcService();
         }
-        public async Task<string> Handle(UserRegisterCommand request, CancellationToken cancellationToken)
+        public async Task<RegisterReply> Handle(UserRegisterCommand request, CancellationToken cancellationToken)
         {
+
             var registerRequest = new RegisterRequest
             {
-                Firstname = request.FirstName,
-                Lastname = request.LastName,
-                Email = request.Email,
-                Dateofbirth = Timestamp.FromDateTime(DateTime.SpecifyKind(request.DateOfBirth, DateTimeKind.Utc)),
-                MentorId = request.MentorId,
-                Phonenumber = request.PhoneNumber,
-                Address = request.Address,
-                DepartmentId = request.DepartmentId,
-                JobId = request.JobId
+                User = new Web.User
+                {
+                    Firstname = request.FirstName,
+                    Lastname = request.LastName,
+                    Email = request.Email,
+                    Dateofbirth = Timestamp.FromDateTime(DateTime.SpecifyKind(request.DateOfBirth, DateTimeKind.Utc)),
+                    MentorId = request.MentorId,
+                    Phonenumber = request.PhoneNumber,
+                    Address = request.Address,
+                    DepartmentId = request.DepartmentId,
+                    JobId = request.JobId
+                    }
+
             };
 
-            var result = await service.Register(registerRequest);  
-            
-            return result;
+            return await service.Register(registerRequest);
         }
     }
 }

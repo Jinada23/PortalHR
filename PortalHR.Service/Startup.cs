@@ -32,7 +32,7 @@ namespace PortalHR.Service
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<UserRegisterService>();
+                endpoints.MapGrpcService<UserGrpcService>();
 
                 endpoints.MapGet("/", async context =>
                 {

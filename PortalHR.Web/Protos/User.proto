@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+option csharp_namespace = "PortalHR.Web";
+import "google/protobuf/timestamp.proto";
+package greet;
+
+service UserService {
+  rpc Register (RegisterRequest) returns (RegisterReply);
+  rpc Login (LoginRequest) returns (LoginResponse);
+  rpc GetUserById (GetUserRequest) returns (GetUserResponse);
+  rpc EditUser (EditUserRequest) returns (EditUserResponse);
+  rpc GetAllUsers (GetAllUsersRequest) returns (GetAllUsersResponse);
+}
+
+message User {
+  string firstname = 1;
+  string lastname = 2;
+  string email  = 3;
+  google.protobuf.Timestamp dateofbirth = 4;
+  int32 mentorId = 5;
+  string phonenumber = 6;
+  string address = 7;
+  int32 departmentId = 8;
+  int32 jobId = 9;
+}
+
+message RegisterRequest {
+  User user = 1;
+}
+
+message RegisterReply {
+  string message = 1;
+}
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+  google.protobuf.Timestamp lastLogin = 3;
+  string ipaddress =4;
+}
+
+message LoginResponse {
+  string token = 1;
+  string message = 2;
+}
+message GetUserRequest{
+  string userId = 1;
+  string token = 2;
+}
+
+message GetUserResponse {
+  User user = 1;
+  string message = 2;
+}
+
+message EditUserRequest {
+  int32 UserId = 1;
+}
+
+message EditUserResponse {
+  User user = 1;
+  string message = 2;
+}
+
+message GetAllUsersRequest {
+  int32 UserId = 1;
+}
+
+message GetAllUsersResponse {
+  repeated User users = 1;
+  string message = 2;
+}
